@@ -68,7 +68,7 @@ const Contactme = () => {
                 <FaGithub className="text-2xl"/>
                 <span>Github</span>
               </a>
-              <a href="https://www.linkedin.com/in/muneeb-imtiaz-63363717b/" rel="noopener noreferrer" target="_blank" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
+              <a href="https://www.linkedin.com/in/muneebimtiazz" rel="noopener noreferrer" target="_blank" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
                 <FaLinkedin className="text-2xl"/>
                 <span>LinkedIn</span>
               </a>
