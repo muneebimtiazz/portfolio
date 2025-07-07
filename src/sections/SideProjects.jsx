@@ -6,7 +6,7 @@ import { PiGitBranchThin } from "react-icons/pi";
 const SideProjects = () => {
   const projects = [
     {
-      title: "IncStay Rentals",
+      title: "Incstay Rentals",
       subtitle: "Full-Stack MERN Booking Platform",
       description: "Developed a responsive and feature-rich rental booking web application similar to Airbnb. Users can browse listings, book properties, and manage their stays. Property owners can upload rental details and multiple images.",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "Tailwind CSS"],
@@ -51,10 +51,12 @@ const SideProjects = () => {
           <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-2 sm:gap-10 justify-between ">
+        <div className="relative flex flex-col sm:flex-row gap-2 sm:gap-10 justify-between ">
           {projects.map((project, index) => (
-            <div key={index} className="border sm:w-[50%] gap-10 border-gray-600 rounded-lg p-2 sm:p-6 hover:border-gray-400 transition-colors">
-              <div className="mb-2">
+            <div key={index} className="flex flex-col justify-between border sm:w-[50%] border-gray-600 rounded-lg p-2 sm:p-6 hover:border-gray-400 transition-colors">
+              
+             <div className="sm:mb-2">
+                <div className="mb-2">
                 <h3 className="text-2xl font-semibold">{project.title}</h3>
                 <p className="text-gray-300 text-sm sm:text-base">{project.subtitle}</p>
                 <p className="text-gray-400 text-xs sm:text-sm text-justify">{project.description}</p>
@@ -80,18 +82,20 @@ const SideProjects = () => {
                     ))}
                   </ul>
                 </div>
-                
-                <div className="flex flex-col justify-center space-y-2">
-                  <button className="flex items-center justify-center space-x-2 px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition-colors">
+              </div>
+              </div> 
+
+
+              <div className="flex flex-col justify-center space-y-2 ">
+                  <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 px-6 py-3 border border-white rounded-lg hover:bg-white hover:text-black transition-colors">
+                    <PiGitBranchThin/>
+                    <span>Live Demo</span>                    
+                  </a>
+                  
+                  <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 px-6 py-3 bg-white text-black rounded-lg hover:bg-gray-200 transition-colors">
                     <HiCode/>
                     <span>View Code</span>
-                  </button>
-                  
-                  <button className="flex items-center justify-center space-x-2 px-6 py-3 bg-white text-black rounded-lg hover:bg-gray-200 transition-colors">
-                    <PiGitBranchThin/>
-                    <span>Live Demo</span>
-                  </button>
-                </div>
+                  </a>
               </div>
             </div>
           ))}

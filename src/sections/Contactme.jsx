@@ -63,19 +63,19 @@ const Contactme = () => {
 
             </div>
 
-            <div className="flex text-center justify-evenly">     
-              <button className="flex items-center justify-center space-x-2  px-3 sm:px-6 py-2 sm:py-3 bg-white text-black rounded sm:rounded-lg hover:bg-gray-200 transition-colors">
+            <div className="flex text-center justify-evenly text-xs sm:text-sm">     
+              <a href="https://github.com/muneebimtiazz" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
                 <FaGithub className="text-2xl"/>
                 <span>Github</span>
-              </button>
-              <button className="flex items-center justify-center space-x-2  px-3 sm:px-6 py-2 sm:py-3 bg-white text-black rounded sm:rounded-lg hover:bg-gray-200 transition-colors">
+              </a>
+              <a href="https://www.linkedin.com/in/muneeb-imtiaz-63363717b/" rel="noopener noreferrer" target="_blank" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
                 <FaLinkedin className="text-2xl"/>
-                <span>Linked In</span>
-              </button>
-              <button className="flex items-center justify-center space-x-2  px-3 sm:px-6 py-2 sm:py-3 bg-white text-black rounded sm:rounded-lg hover:bg-gray-200 transition-colors">
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://x.com/muneebimtiazz" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded  hover:bg-gray-200 transition-colors">
                 <FaXTwitter className="text-2xl"/>
                 <span>Twitter</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

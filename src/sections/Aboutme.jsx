@@ -10,24 +10,24 @@ const Aboutme = () => {
         
         <div className="grid md:grid-cols-2 gap-6 sm:gap-12 items-center">
           <div className="space-y-2 sm:space-y-6 text-justify ">
-            <p className="text-xs sm:text-lg leading-relaxed">
+            <p className="text-xs sm:text-base ">
               I am a final-semester Computer Science student at the University of South Asia, 
               passionate about full-stack web development and building scalable, user-centered applications.
             </p>
-            <p className="text-xs sm:text-lg leading-relaxed">
+            <p className="text-xs sm:text-base">
               With hands-on experience in React, Node.js, Express, and MongoDB, I enjoy solving 
               complex challenges and creating efficient, end-to-end solutions.
             </p>
-            <p className="text-xs sm:text-lg leading-relaxed">
+            <p className="text-xs sm:text-base">
               I'm currently seeking a 2025 internship to sharpen my skills and contribute 
               meaningfully to impactful software projects.
             </p>
           </div>
           
-          <div className="space-y-2">
-            <div className="border border-gray-600 rounded-lg p-6">
-              <h3 className="text-2xl font-semibold mb-1 sm:mb-4">Education</h3>
-              <div className="space-y-3">
+          <div className="space-y-3">
+            <div className="border border-gray-600 rounded-lg p-3 sm:p-6">
+              <h3 className="text-2xl font-semibold mb-1">Education</h3>
+              <div className="space-y-1">
                 <div>
                   <h4 className="font-semibold">Bachelor's in Computer Science</h4>
                   <p className="text-gray-300 text-sm sm:text-base">University of South Asia, Lahore Cantt</p>
@@ -41,16 +41,16 @@ const Aboutme = () => {
               </div>
             </div>
             
-            <div className="border border-gray-600 rounded-lg p-6">
-              <h3 className="text-2xl font-semibold mb-1 sm:mb-4">Certifications</h3>
-              <div className="space-y-3">
+            <div className="border border-gray-600 rounded-lg p-3 sm:p-6">
+              <h3 className="text-2xl font-semibold mb-1">Certifications</h3>
+              <div className="space-y-1">
                 <div>
-                  <h4 className="font-semibold">Professional Certificate in Front-End Development</h4>
-                  <p className="text-gray-300 text-xs sm:text-sm">Meta</p>
+                  <h4 className="text-sm sm:text-base">Professional Certificate in Front-End Development</h4>
+                  <p className="text-gray-400 text-xs sm:text-sm">Meta</p>
                 </div>
                 <div>
-                  <h4 className="font-semibold">Complete Full-Stack Web Development Bootcamp</h4>
-                  <p className="text-gray-300 text-xs sm:text-sm">Udemy</p>
+                  <h4 className="text-sm sm:text-base">Complete Full-Stack Web Development Bootcamp</h4>
+                  <p className="text-gray-400 text-xs sm:text-sm">Udemy</p>
                 </div>
               </div>
             </div>
