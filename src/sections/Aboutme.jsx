@@ -11,37 +11,37 @@ const Aboutme = () => {
         <div className="grid md:grid-cols-2 gap-6 sm:gap-12 items-center">
           <div className="space-y-2 sm:space-y-6 text-justify ">
             <p className="text-xs sm:text-base ">
-              I am a final-semester Computer Science student at the University of South Asia, 
-              passionate about full-stack web development and building scalable, user-centered applications.
+              Hi, I’m Muneeb, a full-stack web developer and final-year Computer Science student passionate about building clean, fast, and scalable web applications. I specialize in the MERN stack (MongoDB, Express, React, Node.js) and love turning real-world problems into user-friendly digital solutions.
             </p>
             <p className="text-xs sm:text-base">
-              With hands-on experience in React, Node.js, Express, and MongoDB, I enjoy solving 
-              complex challenges and creating efficient, end-to-end solutions.
+              I’ve built and deployed complete applications like IncStay Rentals, a full-stack booking platform, and Soma Clothing, a sleek e-commerce frontend. My work reflects a focus on performance, responsiveness, and practical design.
             </p>
             <p className="text-xs sm:text-base">
-              I'm currently seeking a 2025 internship to sharpen my skills and contribute 
-              meaningfully to impactful software projects.
+              I’m currently open to 2025 internship opportunities where I can contribute to real product teams, grow my backend engineering skills, and continue learning from experienced developers.
+            </p>
+            <p className="hidden sm:block text-xs sm:text-base">
+              When I’m not coding, I enjoy exploring new tech stacks, watching developer content, or brainstorming ideas for my next side project.
             </p>
           </div>
           
-          <div className="space-y-3">
-            <div className="border border-gray-600 rounded-lg p-3 sm:p-6">
+          <div className="space-y-3 ">
+            <div className="border border-gray-600 rounded-lg p-3 sm:p-6 min-h-fit">
               <h3 className="text-2xl font-semibold mb-1">Education</h3>
               <div className="space-y-1">
                 <div>
                   <h4 className="font-semibold">Bachelor's in Computer Science</h4>
                   <p className="text-gray-300 text-sm sm:text-base">University of South Asia, Lahore Cantt</p>
-                  <p className="text-gray-400 text-xs sm:text-sm">Expected Graduation: 2026 | CGPA: 2.91</p>
+                  <p className="text-gray-400 text-xs sm:text-sm">Expected Graduation: 2026</p>
                 </div>
                 <div>
                   <h4 className="font-semibold">Intermediate in Engineering</h4>
                   <p className="text-gray-300 text-sm sm:text-base">Punjab Group of College Main Campus</p>
-                  <p className="text-gray-400 text-xs sm:text-sm">2019 - 2021 | Marks: 712/1100</p>
+                  <p className="text-gray-400 text-xs sm:text-sm">2019 - 2021 </p>
                 </div>
               </div>
             </div>
             
-            <div className="border border-gray-600 rounded-lg p-3 sm:p-6">
+            <div className="border border-gray-600 rounded-lg p-3 sm:p-6 sm:min-h-55">
               <h3 className="text-2xl font-semibold mb-1">Certifications</h3>
               <div className="space-y-1">
                 <div>
@@ -55,6 +55,7 @@ const Aboutme = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>

@@ -1,8 +1,6 @@
 import { HiCode } from "react-icons/hi";
 import { PiGitBranchThin } from "react-icons/pi";
 
-
-
 const SideProjects = () => {
   const projects = [
     {

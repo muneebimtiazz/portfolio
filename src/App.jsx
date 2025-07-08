@@ -13,9 +13,9 @@ function App() {
       <Home/>
       <TrippyScroll/>
       <Aboutme />
-      <Contactme />
       <Skills />
       <SideProjects />
+      <Contactme />
     </div>
   )
 }

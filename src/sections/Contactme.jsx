@@ -5,11 +5,6 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
 import { TbPhoneRinging } from "react-icons/tb";
 
-
-
-
-
-
 const Contactme = () => {
   return (
     <div id="contactme" className="max-w-[90%] mx-auto min-h-screen bg-[#171717] text-white py-20">
@@ -64,15 +59,15 @@ const Contactme = () => {
             </div>
 
             <div className="flex text-center justify-evenly text-xs sm:text-sm">     
-              <a href="https://github.com/muneebimtiazz" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
+              <a href="https://github.com/muneebimtiazz" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-1 sm:space-x-2 px-4 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
                 <FaGithub className="text-2xl"/>
                 <span>Github</span>
               </a>
-              <a href="https://www.linkedin.com/in/muneebimtiazz" rel="noopener noreferrer" target="_blank" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
+              <a href="https://www.linkedin.com/in/muneebimtiazz" rel="noopener noreferrer" target="_blank" className="flex items-center justify-center space-x-1 sm:space-x-2 px-4 sm:px-6 py-2 bg-white text-black rounded hover:bg-gray-200 transition-colors">
                 <FaLinkedin className="text-2xl"/>
                 <span>LinkedIn</span>
               </a>
-              <a href="https://x.com/muneebimtiazz" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-1 sm:space-x-2 px-3 sm:px-6 py-2 bg-white text-black rounded  hover:bg-gray-200 transition-colors">
+              <a href="https://x.com/muneebimtiazz" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-1 sm:space-x-2 px-4 sm:px-6 py-2 bg-white text-black rounded  hover:bg-gray-200 transition-colors">
                 <FaXTwitter className="text-2xl"/>
                 <span>Twitter</span>
               </a>
